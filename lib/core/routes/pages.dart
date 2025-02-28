@@ -3,6 +3,7 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:share_nest/core/routes/names.dart';
 import 'package:share_nest/features/auth/pages/otp_page.dart';
 import 'package:share_nest/features/auth/pages/sign_in_page.dart';
+import 'package:share_nest/features/auth/pages/sign_up_page.dart';
 import 'package:share_nest/features/home/pages/add_product.dart';
 import 'package:share_nest/features/home/pages/home_page.dart';
 import 'package:share_nest/features/home/pages/product_detail_page.dart';
@@ -41,6 +42,10 @@ class AppPages {
       PageEntity(
         route: AppRoutes.ADD_PRODUCT,
         page: const AddProduct(),
+      ),
+      PageEntity(
+        route: AppRoutes.SIGN_UP,
+        page: const SignUpPage(),
       ),
       // PageEntity(
       //   route: AppRoutes.Course_video_play,

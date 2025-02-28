@@ -7,8 +7,8 @@ import 'package:share_nest/core/common/widgets/app_style.dart';
 Widget buildTextField(
     String hintText, String textType, TextEditingController controller) {
   return Container(
-    height: 40.h,
-    width: 240.w,
+    height: 50.h,
+    width: 250.w,
     decoration: BoxDecoration(
         border: Border.all(width: 0.0),
         color: Colors.white,
